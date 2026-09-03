@@ -13,10 +13,10 @@ To bridge the gap between software schematic capture and physical electronics, I
 
 ## Zero PCB Prototype:
 ### Front View
-![Front of PCB](ZeroPCB Front.jpg)
+![Front of PCB](ZeroPCB%20Front.jpg)
 
 ### Back View
-![Back of PCB](ZeroPCB Back.jpg)
+![Back of PCB](ZeroPCB%20Back.jpg)
 
 ## Circuit Details
 Based on the schematic, the circuit consists of:
