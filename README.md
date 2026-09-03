@@ -1,7 +1,22 @@
-# # 5V Linear Power Supply (My First PCB)
+# 5V Linear Power Supply (My First PCB)
 
 ## Description
-This is my first PCB design project! It is a simple, robust 5V linear power supply designed in EasyEDA. The circuit takes an AC or unregulated DC input, passes it through a full-wave bridge rectifier, filters it, and uses an LM7805 voltage regulator to output a stable 5V DC.
+This is my first PCB design project! It is a simple, robust 5V linear power supply designed in EasyEDA. The circuit takes an AC or unregulated DC input, passes it through a full-wave bridge rectifier, filters it, and uses an LM7805 voltage regulator to output a stable 5V DC. 
+
+Alongside the digital layout, I also built and hand-soldered a physical prototype of this circuit on a Zero PCB (Perfboard) to validate the hardware logic in the real world.
+
+## 🛠️ Physical Prototype (Zero PCB Build)
+To bridge the gap between software schematic capture and physical electronics, I hand-soldered a working prototype before sending files to fabrication.
+* **Platform:** Zero PCB / General Purpose Perfboard.
+* **Hardware Integration:** Successfully wired a through-hole bridge rectifier, an electrolytic filter capacitor, an LM7805 voltage regulator (TO-220 package), and added a power indicator LED.
+* **Validation:** Verified the AC-to-DC full-wave rectification, voltage smoothing, and stable 5V step-down regulation using physical components.
+
+## Zero PCB Prototype:
+### Front View
+![Front of PCB](ZeroPCB Front.jpg)
+
+### Back View
+![Back of PCB](ZeroPCB Back.jpg)
 
 ## Circuit Details
 Based on the schematic, the circuit consists of:
@@ -18,6 +33,7 @@ Based on the schematic, the circuit consists of:
 * `Gerber_MY-first-PCB_PCB_MY-first-PCB_2026-09-03.zip` - Manufacturing files ready to be sent to a PCB fabrication house.
 * `BOM_MY-first-PCB_2026-09-03.csv` - Bill of Materials.
 * `2D_PCB_View.png` and `3D_PCB_View.png` - Visual renders of the finished board.
+* `f1e57a00-bd87-4208-ac87-464d6a525fc5.jpg` - Photo of the hand-soldered physical prototype.
 
 ## Bill of Materials (BOM)
 | Reference | Value/Part | Description |
