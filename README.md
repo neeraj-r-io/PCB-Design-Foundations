@@ -14,8 +14,8 @@ Based on the schematic, the circuit consists of:
 ![Schematic](Schematic_MY-first-PCB_2026-09-03.png)
 
 ## Repository Contents
-* `src/` - EasyEDA project files (.zip or .json).
-* `gerbers/` - Manufacturing `.zip` file ready to be sent to a PCB fabrication house.
+* `src/SCH_MY-first-PCB_2026-09-03.json` - EasyEDA project files (.zip or .json).
+* `gerbers/Gerber_MY-first-PCB_PCB_MY-first-PCB_2026-09-03.zip` - Manufacturing `.zip` file ready to be sent to a PCB fabrication house.
 * `BOM_MY-first-PCB_2026-09-03.csv` - Bill of Materials.
 
 ## Bill of Materials (BOM)
